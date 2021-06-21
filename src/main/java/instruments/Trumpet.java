@@ -2,8 +2,8 @@ package instruments;
 
 public class Trumpet extends Instrument {
 
-    public Trumpet(double buyingPrice, double sellingPrice, InstrumentType type, String material, String color) {
-        super(buyingPrice, sellingPrice, type, material, color);
+    public Trumpet(double buyingPrice, double sellingPrice, InstrumentType type, String material, String color, String brand) {
+        super(buyingPrice, sellingPrice, type, material, color, brand);
     }
 
     @Override

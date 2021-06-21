@@ -4,8 +4,8 @@ public class Banjo extends Instrument {
 
     private final int numStrings = 4;
 
-    public Banjo(double buyingPrice, double sellingPrice, InstrumentType type, String material, String color) {
-        super(buyingPrice, sellingPrice, type, material, color);
+    public Banjo(double buyingPrice, double sellingPrice, InstrumentType type, String material, String color, String brand) {
+        super(buyingPrice, sellingPrice, type, material, color, brand);
     }
 
     @Override
